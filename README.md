@@ -5,7 +5,7 @@ Company wants to automate the loan eligibility process (real time) based on cust
 
 
 # Methodology :
-<H3> 1- Logistic regression  without hyperparmters tuning: <H3\>
+<H3> 1- Logistic regression  without hyperparmters tuning: <H3/>
 the test score was: 68.18%
 
 <H3> Logistic regression with hyperparmters tuning (regulization):<H3/>
@@ -47,6 +47,7 @@ Accuracy Score: 70.78%
 
 
 # so the decision tree with hyperparam tunning is the best algorithm used.
+
 
 
 
