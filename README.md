@@ -43,13 +43,14 @@ Accuracy Score: 70.78%
 
 
 
-# Note that the <h1> GRID SEARCH is used in bothways for hyperparams tunning<h1\>
+# Note that the <h1> GRID SEARCH is used in bothways for hyperparams tunning
 
 
 
 
 
 # so the decision tree with hyperparam tunning is the best algorithm used.
+
 
 
 
