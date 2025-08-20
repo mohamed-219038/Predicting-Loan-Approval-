@@ -6,15 +6,15 @@ Company wants to automate the loan eligibility process (real time) based on cust
 
 # Methodology :
 
-H 1- Logistic regression  without hyperparmters tuning: 
+# 1- Logistic regression  without hyperparmters tuning: 
 the test score was: 68.18%
 
 
-H Logistic regression with hyperparmters tuning (regulization):
+# Logistic regression with hyperparmters tuning (regulization):
 test Score: 70.78%
 
   
-H 2- descioin tree without hyperparmters tuning:  ____>OVERFITTING
+2- descioin tree without hyperparmters tuning:  ____>OVERFITTING
 Train Result:
 ================================================
 Train Score: 100.00%
@@ -27,7 +27,7 @@ Accuracy Score: 57.79%
 _______________________________________________
 
 
-H 2- descioin tree with hyperparmters tuning: 
+# 2- descioin tree with hyperparmters tuning: 
 
 Fitting 3 folds for each of 4332 candidates, totalling 12996 fits
 Best paramters: {'criterion': 'gini', 'max_depth': 1, 'min_samples_leaf': 15, 'min_samples_split': 2, 'splitter': 'best'})
@@ -50,6 +50,7 @@ Accuracy Score: 70.78%
 
 
 # so the decision tree with hyperparam tunning is the best algorithm used.
+
 
 
 
