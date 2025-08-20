@@ -5,7 +5,7 @@ Company wants to automate the loan eligibility process (real time) based on cust
 
 
 # Methodology :
-<h3> 1- Logistic regression  without hyperparmters tuning:<h3\>
+<H3> 1- Logistic regression  without hyperparmters tuning: <H3\>
 the test score was: 68.18%
   _______________________________________________
 CLASSIFICATION REPORT:
@@ -13,7 +13,7 @@ CLASSIFICATION REPORT:
 precision   0.0    0.690789  0.681818    0.345395      0.479964
 recall      0.0    0.981308  0.681818    0.490654      0.681818
 f1-score    0.0    0.810811  0.681818    0.405405      0.563356
-<H3> Logistic regression with hyperparmters tuning (regulization):<h3\>
+<H3> Logistic regression with hyperparmters tuning (regulization):<H3/>
 test Score: 70.78%
 _______________________________________________
 CLASSIFICATION REPORT:
@@ -22,7 +22,7 @@ precision   0.625000    0.712329  0.707792    0.668664      0.685676
 recall      0.106383    0.971963  0.707792    0.539173      0.707792
 f1-score    0.181818    0.822134  0.707792    0.501976      0.626713
   
-<h>2- descioin tree without hyperparmters tuning:<h3\> ____> # OVERFITTING
+<H3> 2- descioin tree without hyperparmters tuning: <h3\> ____> # OVERFITTING
 Train Result:
 ================================================
 Accuracy Score: 100.00%
@@ -34,9 +34,6 @@ recall       1.0    1.0       1.0        1.0           1.0
 f1-score     1.0    1.0       1.0        1.0           1.0
 support    117.0  240.0       1.0      357.0         357.0
 _______________________________________________
-Confusion Matrix: 
- [[117   0]
- [  0 240]]
 
 Test Result:
 ================================================
@@ -48,7 +45,7 @@ precision   0.285714    0.687500  0.577922    0.486607      0.564877
 recall      0.255319    0.719626  0.577922    0.487473      0.577922
 f1-score    0.269663    0.703196  0.577922    0.486430      0.570884
 
-<H3> 2- descioin tree with hyperparmters tuning: <h3\>
+<H3> 2- descioin tree with hyperparmters tuning: <H3\>
 
 Fitting 3 folds for each of 4332 candidates, totalling 12996 fits
 Best paramters: {'criterion': 'gini', 'max_depth': 1, 'min_samples_leaf': 15, 'min_samples_split': 2, 'splitter': 'best'})
@@ -82,4 +79,5 @@ recall      0.106383    0.971963  0.707792    0.539173      0.707792
 
 
 # so the decision tree with hyperparam tunning is the best algorithm used.
+
 
