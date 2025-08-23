@@ -7,14 +7,14 @@ Company wants to automate the loan eligibility process (real time) based on cust
 # Methodology :
 
 # 1- Logistic regression  without hyperparmters tuning: 
-the test score was: 68.18%
+the test score was: 83.5%
 
 
-# Logistic regression with hyperparmters tuning (regulization):
-test Score: 70.78%
+# 2-Logistic regression with hyperparmters tuning (regulization):
+test Score: 83.5%
 
   
-2- descioin tree without hyperparmters tuning:  ____>OVERFITTING
+3- descioin tree without hyperparmters tuning:  ____>OVERFITTING
 Train Result:
 ================================================
 Train Score: 100.00%
@@ -23,33 +23,67 @@ _______________________________________________
 
 Test Result:
 ================================================
-Accuracy Score: 57.79%
+Accuracy Score: 77.09%
 _______________________________________________
 
 
-# 2- descioin tree with hyperparmters tuning: 
+# 4- descioin tree with hyperparmters tuning: 
 
 Fitting 3 folds for each of 4332 candidates, totalling 12996 fits
-Best paramters: {'criterion': 'gini', 'max_depth': 1, 'min_samples_leaf': 15, 'min_samples_split': 2, 'splitter': 'best'})
+Best paramters: {'criterion': 'gini', 'max_depth': 3, 'min_samples_leaf': 1, 'min_samples_split': 4, 'splitter': 'random'})
 Train Result:
 ================================================
-Accuracy Score: 68.07%
+Accuracy Score: 81.22%
 
 
 
 Test Result:
 ================================================
-Accuracy Score: 70.78%
+Accuracy Score: 84.71%
 
 
 
-# Note that the <h1> GRID SEARCH is used in bothways for hyperparams tunning
+# 5- random forest  without hyperparmters tuning: ___>(OVERFITTING)
+
+
+Train Result:
+================================================
+Accuracy Score: 100%
+
+
+
+Test Result:
+================================================
+Accuracy Score: 83.53%
 
 
 
 
 
-# so the decision tree with hyperparam tunning is the best algorithm used.
+# 6- descioin tree with hyperparmters tuning: 
+
+Fitting 3 folds for each of 100 candidates, totalling 300 fits
+Best paramters: {'n_estimators': 400, 'min_samples_split': 5, 'min_samples_leaf': 4, 'max_depth': 30, 'bootstrap': True})
+Train Result:
+================================================
+Accuracy Score: 84.01%
+
+
+
+Test Result:
+================================================
+Accuracy Score: 83.53%
+
+
+
+
+# Note that the <h1> GRID SEARCH is used in ALL ways for hyperparams tunning
+
+
+
+
+
+# so the RANDOM FOREST is the best algorithm used with the best score.
 
 
 
